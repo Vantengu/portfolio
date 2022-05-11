@@ -1,0 +1,286 @@
+@import url(null_style.scss);
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.eot');
+	src: local('☺'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('fonts/Gilroy-Bold.ttf') format('truetype'), url('fonts/Gilroy-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: 700;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.eot');
+	src: local('☺'), url('../fonts/Gilroy-Regular.woff') format('woff'), url('fonts/Gilroy-Regular.ttf') format('truetype'), url('fonts/Gilroy-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.eot');
+	src: local('☺'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('fonts/Gilroy-Medium.ttf') format('truetype'), url('fonts/Gilroy-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: 500;
+}
+
+body {
+  font-family: "Gilroy";
+  background-color: #ffffff;
+  padding-top: 33px;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+}
+.conteiner {
+  margin: auto;
+  max-width: 944px;
+}
+.menu__item p{
+  display: inline;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.5px;
+  margin-right: 150px;
+}
+p.contacts{
+  margin-right: 0px;
+}
+a:hover{
+  color: black;
+}
+.line{
+  border: 1px solid #828282;
+  margin-top: 32px;
+}
+.conteiner{
+  width: 944px;
+}
+.main__item{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  font-size: 47px;
+  margin-top: 40px;
+}
+.age{
+  font-weight: 500;
+  margin-top: 106px;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: -90px;
+}
+.lang{
+  display: flex;
+}
+.lang1{
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  transform: rotate(-90deg);
+  top: 189px;
+  margin-left: -36px;
+}
+.photo{
+  position: absolute;
+  width: 943.61px;
+  height: 387px;
+  background-image: url('../img/me.jpg');
+}
+.about_me{
+  background-color: #F6F6F6;
+  margin-top: 490px;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+.item{
+  text-align: center;
+}
+h2{
+  font-size: 34px;
+  line-height: 42px;
+}
+.item p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 28px;
+}
+.skills{
+  padding-bottom: 91px;
+}
+.skills__item{
+  text-align: center;
+  padding-top: 91px;
+}
+h3{
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+.work{
+  margin-bottom: 80px;
+}
+.wrappers{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 110px;
+}
+.logoHTML{
+  max-width: 90px;
+
+}
+.html1{
+  font-weight: 700;
+  color: #828282;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0px;
+}
+.logoCSS{
+  max-width: 64px;
+}
+.css1{
+  font-weight: 700;
+  color: #828282;
+  font-size: 14px;
+  text-align: center;
+  padding: 4px 0px;
+}
+.logoJS{
+  max-width: 82px;
+}
+.js1{
+  font-weight: 700;
+  color: #828282;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 13px;
+}
+.logowebPuck{
+  max-width: 80px;
+}
+.webPuck1{
+ font-weight: 700;
+ color: #828282;
+ font-size: 14px;
+ text-align: center;
+ padding-top: 1px;
+}
+
+.portfolio1{
+  background-color: #F6F6F6;
+}
+.portfolio__blocks{
+  padding-top: 112px;
+}
+h4{
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  padding-bottom: 47px;
+}
+.site1{
+  max-width: 936;
+}
+.sale{
+  padding-top: 45px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.silka1{
+  color: black;
+  text-decoration: underline;
+}
+.site1{
+  max-width: 936;
+}
+.reebok{
+  padding-top: 45px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.silka2{
+  color: black;
+  text-decoration: underline;
+}.site1{
+  max-width: 936;
+}
+.camera{
+  padding-top: 45px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.silka3{
+  color: black;
+  text-decoration: underline;
+}
+h5{
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  margin-top: 114px;
+}
+.hello{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.flex__box {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom{
+  left: 45.3%;
+  padding-bottom: 92px;
+}
+.telegram {
+  border: 1px solid black;
+    border-radius: 30px;
+    width: 180px;
+    height: 42px;
+  font-weight: 700;
+  background-color: black;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+
+}
+.mail {
+  border: 1px solid black;
+    border-radius: 30px;
+    width: 180px;
+    height: 42px;
+  font-weight: 700;
+  background-color: black;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+}
+.github {
+  border: 1px solid black;
+    border-radius: 30px;
+    width: 180px;
+    height: 42px;
+  font-weight: 700;
+  background-color: black;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+}
+.bottom__telegram{
+  color: white;
+}
+.bottom__mail {
+  color: white;
+}
+.bottom__github {
+  color: white;
+}
